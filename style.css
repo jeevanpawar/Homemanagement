@@ -1,0 +1,59 @@
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:#000;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+.container {
+	width: 1300px;
+	background: #000;
+	opacity:0.5;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+	overflow: hidden; /* this declaration makes the .container understand where the floated columns within ends and contain them */
+}
+
+.header
+{
+	width:100%;
+	height:50px;
+	margin-top:5px;	
+	background-color:#FFF;
+	border:1px solid #FFF; 
+}
+
+.left
+{
+	height:500px;
+	margin-top:5px;
+	width:260px;
+	background-color:#FFF;
+
+}
+
+.middle
+{
+	height:500px;
+	margin-top:-500px;
+	margin-left:270px;
+	width:760px;
+	background-color:#FFF;
+
+}
+.right
+{
+	height:500px;
+	margin-top:-500px;
+	margin-left:1040px;
+	width:260px;
+	background-color:#FFF;
+
+}
+.footer
+{
+	width:100%;
+	height:50px;
+	margin-top:5px;	
+	background-color:#FFF;
+}

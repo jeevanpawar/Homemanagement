@@ -1,0 +1,317 @@
+body{
+	background-color:#333;
+	font:13px Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	color:#333;
+	line-height:160%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	}
+	.sdate
+	{
+		width:200px;
+		border:1px solid #111;
+		padding:5px 3px;
+			
+	}
+	
+	.cat
+	{
+		background-color:#666;
+		width:50px;
+	}
+	h1{
+		font-size:200%;
+		font-weight:normal;
+		}		
+	h2, h3, h4, h5, h6{
+		font-weight:normal;
+		margin:1em 0;
+		}	
+	h2{            
+		font-size:160%;
+		}	
+	h3{          
+		font-size:140%;
+		}
+	h4{          
+		font-size:120%;
+		}				
+	
+	a{
+		text-decoration:none;
+		color:#f30;
+		}
+	a:hover{
+		color:#999;
+		}			
+	table, input, textarea, select, li{
+		font:100% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+		line-height:160%;
+		color:#333;
+		}				
+	p, blockquote, ul, ol, form{
+		margin:1em 0;
+		}
+	blockquote{
+		}
+	img{
+		border:none;
+		}			
+	hr{
+		display:none;
+		}	
+	table{
+		margin:1em 0;
+		width:100%;
+		border-collapse:collapse;
+		}
+	th, td{	
+		padding:2px 5px;
+		}	
+	th{	
+		text-align:left;
+		}
+	li{
+		display:list-item;
+		}	
+		
+	#container{	
+		margin:0 auto;
+		width:350px;
+		padding:20px 40px;
+		text-align:left;
+		}		
+		
+	.header{
+		background-color:#F60;
+		vertical-align:middle;
+		width:100%;
+		margin-top:-15px;
+		height:40px;
+		text-align:left;
+	
+		}	
+	.menu
+	{
+		margin-left:3%;
+	}
+	.menu ul li
+	{
+		
+		list-style:none;
+		font-size:20px;
+		font-weight:bold;
+		display:inline;
+		margin-left:50px;
+		padding:6px 15px 6px 15px;	
+	
+	}
+	.menu ul li a
+	{
+		text-decoration:none;
+		color:#000;
+	}
+	.menu ul li:hover
+	{
+		background-color:#FFF;
+	}
+	.main
+	{
+		position:fixed;
+		margin-left:30%;
+	}
+	
+	.middle
+	{
+		width:950px;
+		position:absolute;
+		margin-left:6.5%;
+		height:80%;
+	}
+	.total
+	{
+		background:#333;
+		width:350px;
+		position:absolute;
+		margin-top:8.3%;
+		margin-left:73%;
+		height:80%;
+	
+	}
+	.amt
+	{
+		background:#5aae00;
+		margin-top:65%;
+		width:90%;
+		margin-left:15px;
+		height:50px;
+		position:absolute;
+	}
+	.tab
+	{
+		margin-left:15px;
+		width:315px;
+		font-size:18px;
+		background-color:#000;
+		color:#FFF;
+		letter-spacing:1px;
+		overflow:auto;
+		border:1px solid #333;
+		
+	}
+	
+	.tabd
+	{
+		font-size:18px;
+		background-color:#000;
+		color:#FFF;
+		width:890px;
+		
+	}
+	
+	.tabd td
+	{
+		text-align:center;
+		border:1px solid #333;
+		opacity:0.5;
+	}
+	
+	
+	.tab_select
+	{
+		font-size:18px;
+		background-color:#000;
+		margin-top:-22px;
+		
+		color:#FFF;
+		width:890px;
+		
+	}
+	.button
+	{
+		height:35px;
+		width:100px;
+	}
+	.tab_select td
+	{
+		text-align:center;
+		height:20px;
+		opacity:0.5;
+	}
+	.tab td
+	{
+		text-align:left;
+		padding:8px;
+		padding-left:20px;
+		
+	}
+	.tab1
+	{
+		
+		background-color:#5aae00;
+	}
+	.tab3
+	{
+		width:100%;
+		font-size:18px;
+		background-color:#000;
+		color:#FFF;
+		letter-spacing:1px;
+		height:55px;
+		
+		overflow:auto;
+	}
+
+/* form 2 */
+
+	#form2{
+		margin:1em 0;
+		color:#fff;
+		width:320px; /* customize width, this form have fluid layout */
+		}
+	#form2 h3{
+		margin:0;
+		background:#57a700 url(../images/form2/form_heading.gif) repeat-x;		
+		color:#fff;
+		font-size:20px;
+		border:1px solid #57a700;
+		border-bottom:none;
+		}		
+	#form2 h3 span{
+		display:block;
+		padding:10px 20px;
+		background:url(../images/form2/form_ico.gif) no-repeat 93% 50%;			
+		}				
+	#form2 fieldset{
+		margin:0;
+		padding:0;
+		border:none;	
+		border-top:3px solid #000;
+		background:#000 url(../images/form2/form_top.gif) repeat-x;		
+		padding-bottom:1em;
+		}		
+	#form2 legend{display:none;}	
+	#form2 p{margin:.5em 20px;}	
+	#form2 label{display:block;}	
+	#form2 input, #form2 textarea{		
+		width:272px;
+		border:1px solid #111;
+		background:#282828 url(../images/form2/form_input.gif) repeat-x;
+		padding:5px 3px;
+		color:#fff;
+		}
+	#form2 select
+	{
+		width:280px;
+		border:1px solid #111;
+		padding:5px 3px;
+			
+	}
+	
+	#form2 textarea{
+		height:125px;
+		overflow:auto;
+		}					
+	#form2 p.submit{
+		text-align:right;
+		}	
+	#form2 button{
+		padding:0 20px;
+		height:32px;
+		line-height:32px;		
+		border:1px solid #70ad2e;
+		background:#5aae00 url(../images/form2/form_button.gif) repeat-x;
+		color:#fff;
+		cursor:pointer;		
+		text-align:center;		
+		}				
+
+		.tab_month
+		{
+			margin-top:19px;
+			font-size:20px;
+			height:44px;
+			color:#FFF;
+			border-radius:10px;
+		}
+		
+		.tab_last
+		{
+			height:200px;
+		}
+		
+		.month
+		{
+			background-color:#5aae00;
+			height:100%;
+			width:250px;
+			border-radius:20px;
+		}
+		.details
+		{
+			background-color:#5aae00;
+			height:100%;
+			width:885px;
+			border-radius:20px;
+		}
